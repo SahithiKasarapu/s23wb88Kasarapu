@@ -17,12 +17,12 @@ block content
 
   - else
     table#outer
-      - for (let i = 0; i < rows; i++)
+      - for (let i = 1; i <= rows; i++)
         tr#middle
-          - for (let j = 0; j < cols; j++) 
+          - for (let j = 1; j <= cols; j++) 
             - if (i === j)
                 td= 1
             - else if (i > j)
                 td= 0
             - else
-                td= j - i
+                td= j

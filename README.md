@@ -8,6 +8,6 @@ Hosted at : [Render url](https://s23wb88kasarapu.onrender.com)
 Class: Shoe
 
 Attributes:
-color (string) brand (string) price (int)
+brand (string) color (string) price (int)
 
 
